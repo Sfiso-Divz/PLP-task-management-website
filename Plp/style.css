@@ -1,0 +1,316 @@
+/* FONTS */
+
+/* Logo Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Heading Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* Basic text Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* END OF FONTS */
+
+/* GLOBALS */
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* END of GLOBALS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This hero class creates a container equal to the screen */
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+
+/* This is the Navigation section */
+nav{
+    display: flex;
+    background-color: #222;
+    height: 10vh;
+    padding: 0 6%;
+    justify-content: space-between;
+}
+
+nav .logo{
+    padding: 25px 0;
+}
+
+nav .logo a{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.5em;
+}
+
+nav .links{
+    padding: 25px 0;
+}
+nav .links a{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0 10px;
+}
+
+nav .signLog{
+    padding: 25px 0;
+}
+
+.signLog a{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0px 10px;
+    border: 2px solid rgb(85, 84, 84);
+    background-color: rgb(85, 84, 84);
+    border-radius: 1px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is END of Navigation section */
+
+
+/* This is for the Hero Section  */
+
+.hero-info{
+    padding: 2rem 6%;
+
+}
+
+.hero-info img{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.para1{
+    width: 700px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #222;
+    margin-top: 2rem;
+    
+}
+
+.first{
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.home-btn{
+    padding: 8px 30px;
+    color: white;
+    background-color: #222;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-info2{
+    padding: 2rem 6%;
+    margin-top: 1rem;
+    height: 70vh;
+}
+
+.second{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.grid-container{
+    display: flex;
+    margin: 0rem 1rem;
+}
+
+.grid{
+    width: 33.3%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.45);
+    padding: 0rem 1rem;
+    margin: 4rem 1rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.para2{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 15px;
+    margin: 1rem 0rem;
+}
+
+/* This is the END of the Hero Section  */
+
+
+
+
+/* This is the Footer section */
+
+.footer{
+    display: flex;
+    background-color: #222;
+    color: white;
+    padding: 1rem 6%;
+    height: 30vh;
+}
+
+
+.footer-logo a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 0.5em;
+}
+
+.nav-links{
+    margin: 3rem 1rem;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    padding: 10px;
+
+}
+
+.maker h3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    margin-top: 12rem;
+    margin-left: 11rem;
+}
+
+/* This is the END of footer */
+
+
+/* This is Login section */
+
+.login-container{
+    margin: 4rem auto;
+    width: 400px;
+    height: 500px;
+    background-color: #222;
+}
+
+.form{
+    padding: 5rem 6%;
+}
+
+.h1-login{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 1rem;
+    text-align: center;
+    outline: none;
+}
+
+.loginBtn{
+    margin: 2rem 0;
+    text-align: center;
+    padding: 5px 35px;
+    margin-left: 7.5rem;
+}
+
+.login-h4{
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.login-h4 a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* This is the END of Login section */
+
+
+
+/* This is the SignUp section */
+
+.signup-container{
+    margin: 4rem auto;
+    width: 400px;
+    height: 500px;
+    background-color: #222;
+}
+
+.h1-signup{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.signupBtn{
+    margin: 2rem 0;
+    text-align: center;
+    padding: 5px 35px;
+    margin-left: 7.5rem;
+}
+.form2{
+    padding: 2rem 6%;
+}
+.form2 input{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 1rem;
+    text-align: center;
+    outline: none;
+}
+
+.signup-h4{
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    margin-top: -1rem;
+}
+
+.signup-h4 a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* This is the END of SignUp section */
